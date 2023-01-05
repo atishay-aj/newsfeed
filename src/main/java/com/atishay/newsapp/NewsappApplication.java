@@ -6,17 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class NewsappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NewsappApplication.class, args);
 	}
 	
-	@GetMapping("/")
-	public String home() {
-		// TODO Auto-generated method stub
-		return "working hurray";
-	}
+	
 
 }

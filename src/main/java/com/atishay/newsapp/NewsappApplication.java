@@ -16,7 +16,7 @@ public class NewsappApplication {
 	@GetMapping("/")
 	public String home() {
 		// TODO Auto-generated method stub
-		return "working";
+		return "working hurray";
 	}
 
 }
